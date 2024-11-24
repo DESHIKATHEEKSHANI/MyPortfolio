@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script
+    src="https://kit.fontawesome.com/acf65a5a2b.js"
+    crossorigin="anonymous"
+  ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+</head>
+
+<body>
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-double-up"></i>
+    </div>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo">
+                
+                <img src="Images/logo.png" class="logo" alt="" />
+            </div>
+            <ul class="menu">
+                <li>
+                    <a href="#home" class="menu-btn">Home</a>
+                </li>
+                <li>
+                    <a href="#about" class="menu-btn">About</a>
+                </li>
+                <li>
+                    <a href="#services" class="menu-btn">Services</a>
+                </li>
+                <li>
+                    <a href="#projects" class="menu-btn">Projects</a>
+                </li>
+                <li>
+                    <a href="#contact" class="menu-btn">Contact</a>
+                </li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hello 👋 I'm</div>
+                <div class="text-2">Deshika Theekshani</div>
+                <div class="text-3">And I'm a <span class="typing"></span>
+                </div>
+                <a href="https://www.linkedin.com/in/deshika-theekshani-234b54336/" target="_blank" rel="noreferrer">Hire me <i class="fad fa-angle-right"></i>
+               </a>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title fadein">About me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="Images/user.png" alt="">
+                    <div>
+                        <div class="wrapper">
+                            <div class="button1">
+                                <div class="icon">
+                                    <a href="https://www.linkedin.com/in/deshika-theekshani-234b54336/" target="_blank" rel="noreferrer">
+                                        <i class="fab fa-linkedin"></i>
+                                    </a>
+                                </div>
+                                <span>LinkedIn</span>
+                            </div>
+                            <div class="buttonmob">
+                                <div class="button1">
+                                    <div class="icon">
+                                        <a href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank" rel="noreferrer">
+                                            <i class="fab fa-facebook"></i>
+                                        </a>
+                                    </div>
+                                    <span>Twitter</span>
+                                </div>
+                            </div>
+                            <div class="buttonmob1"></div>
+                            <div class="button1">
+                                <div class="icon">
+                                    <a href="https://github.com/DESHIKATHEEKSHANI" target="_blank" rel="noreferrer">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                                <span>Github</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column right">
+                    <div class="text">I'm a Deshika & <span class="break">I'm a <span class="typing2"></span></span></div>
+                    <p> Hi! I'm Deshika Theekshani, a passionate and aspiring Full-Stack Developer with a keen interest in crafting dynamic and user-friendly web applications. Currently, I'm honing my skills in technologies like Java, HTML, CSS, and JavaScript, and diving deeper into the exciting world of full-stack development.</p>
+                </div>
+            </div>
+    
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+    
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>Frontend Skills:</span><br />HTML5 & CSS3 & JavaScript</li>
+                    <li><span>Backend Skills:</span><br />Java <br />Databases: SQL & MySQL</li>
+                    <li>
+                        <span>Other Tools:</span><br />
+                        Version Control: Git and GitHub<br />
+                        Development Tools: IDEs like Visual Studio Code.<br />
+                        APIs: Consuming and building RESTful APIs
+                    </li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li>
+                        <span>2024-Current</span><br />
+                        Trainee Full Stack Developer at<br />
+                        Institute of Computer Engineering Technology (iCET)<br /><br />
+                        Developing projects to understand the full-stack development lifecycle.
+                    </li>
+                    <li><br /><span>Personal Projects</span><br />
+                        Creating small web applications like to-do lists or simple calculators to practice coding.
+                    </li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li>
+                        <span>2024-2025</span><br />
+                        Trainee Full Stack Developing Student at<br />
+                        Institute of Computer Engineering Technology (iCET)
+                    </li>
+                    <li><br /><span>Self-Taught Web Development Enthusiast</span><br />
+                        Actively participating in coding challenges and practice sessions to improve problem-solving skills.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <section class="services" id="services">
+        <div class="max-width">
+            <h2 class="title fadein">My Services</h2>
+            <div class="services-content">
+                <div class="column left">
+                    <div class="text">What I Offer</div>
+                    <p>
+                        I specialize in providing comprehensive web development solutions, including creating responsive websites, 
+                        designing intuitive interfaces, and building scalable applications. My expertise spans both frontend and 
+                        backend technologies, ensuring seamless integration and exceptional user experiences.
+                    </p>
+                </div>
+                <div class="column right">
+                    <div class="info">
+                        <div class="service-card">
+                            <i class="fa-solid fa-desktop"></i>
+                            <h2>Web Development</h2>
+                            <p>
+                                Responsive and visually appealing websites with modern design. <br>
+                                Focus on accessibility and intuitive layouts.
+                            </p>
+                            <a href="#">Learn more</a>
+                        </div>
+                        <div class="service-card">
+                            <i class="fa-solid fa-palette"></i>
+                            <h2>Frontend Development</h2>
+                            <p>
+                                Interactive user experiences with JavaScript frameworks. <br>
+                                Clean and scalable code for seamless performance.
+                            </p>
+                            <a href="#">Learn more</a>
+                        </div>
+                        <div class="service-card">
+                            <i class="fa-solid fa-gear"></i>
+                            <h2>Backend Development</h2>
+                            <p>
+                                Server-side logic and database management. <br>
+                                Secure and reliable backend frameworks.
+                            </p>
+                            <a href="#">Learn more</a>
+                        </div>
+                        <div class="service-card">
+                            <i class="fa-solid fa-rocket"></i>
+                            <h2>Full-Stack Development</h2>
+                            <p>
+                                Complete web solutions with API integrations. <br>
+                                Unified frontend and backend development.
+                            </p>
+                            <a href="#">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+        <section class="projects" id="projects">
+        <div class="max-width">
+            <h2 class="title fadein">My Projects</h2>
+            <div class="carousel owl-carousel">
+                <div class="card">
+                    <a href="#" target="_blank" rel="noreferrer" title="Fashion Shop Management System">
+                        <div class="box">
+                            <img src="Images/work-1.png" alt="Fashion Shop Management System">
+                        </div>
+                    </a>
+                    <p>Fashion Shop Management System</p>
+                    <p>Java Swing</p>
+                </div>
+    
+                <div class="card">
+                    <a href="#" target="_blank" rel="noreferrer" title="To-Do List Web Application">
+                        <div class="box">
+                            <img src="Images/work-2.png" alt="To-Do List Web Application">
+                        </div>
+                    </a>
+                    <p>To-Do List Web Application</p>
+                    <p>HTML, CSS, JavaScript</p>
+                </div>
+    
+                <div class="card">
+                    <a href="#" target="_blank" rel="noreferrer" title="Find Country Details">
+                        <div class="box">
+                            <img src="Images/work-3.png" alt="Find Country Details">
+                        </div>
+                    </a>
+                    <p>Find Country Details</p>
+                    <p>HTML, CSS, JavaScript, API</p>
+                </div>
+    
+                <div class="card">
+                    <a href="#" target="_blank" rel="noreferrer" title="Number Guessing Game">
+                        <div class="box">
+                            <img src="Images/work-4.png" alt="Number Guessing Game">
+                        </div>
+                    </a>
+                    <p>Number Guessing Game</p>
+                    <p>HTML, CSS, JavaScript</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title fadein">Contact me</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <div class="text">Reach Out to me!</div>
+                    <p>Discuss a Project or just want to say Hi? My inbox is open for all.</p>
+                    <div class="icons">
+                        <div class="row">
+                            <i class="fas fa-user"></i>
+                            <div class="info">
+                                <div class="head">Name</div>
+                                <div class="sub-title">Deshika Theekshani</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="info">
+                                <div class="head">Address</div>
+                                <div class="sub-title">Bentota, Sri Lanka.</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-envelope email-icon"></i>
+                            <div class="info">
+                                <div class="head">Email</div>
+                                <div class="sub-title"><a href="" target="_blank">deshikathikshani456@gmail.com</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text1">Stay Connected</div>
+                    <div>
+                        <div class="wrapper">
+                            <div class="button1">
+                                <div class="icon">
+                                    <a href="https://www.linkedin.com/in/deshika-theekshani-234b54336/" target="_blank" rel="noreferrer">
+                                        <i class="fab fa-linkedin"></i>
+                                </div>
+                                <span>LinkedIn </a>
+                           </span>
+                            </div>
+                            <div class="buttonmob">
+                                <div class="button1">
+                                    <div class="icon">
+                                        <a href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank" rel="noreferrer">
+                                            <i class="fab fa-facebook"></i>
+                                    </div>
+                                    <span>Twitter </a>
+                              </span>
+                                </div>
+                            </div>
+                            <div class="buttonmob1"></div>
+                            <div class="button1">
+                                <div class="icon">
+                                    <a href="https://github.com/DESHIKATHEEKSHANI" target="_blank" rel="noreferrer">
+                                        <i class="fab fa-github"></i>
+                                </div>
+                                <span>Github </a>
+                           </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column right">
+                    <div class="text">Message me</div>
+                    <form action="#">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" placeholder="Name" required>
+                            </div>
+                            <div class="field email">
+                                <input type="email" placeholder="Email" name="email" required>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="field textarea">
+                            <textarea cols="30" rows="10" placeholder="Describe Project..." required></textarea>
+                        </div>
+                        <div class="button">
+                            <button type="submit">Send Message <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <span>Created By <a href="" target="_blank" rel="noreferrer">Deshika Theekshani</a> | <span class="far fa-copyright"></span> <span id="year"></span> All rights reserved </span>
+    </footer>
+
+    <script src="app.js" async></script>
+</body>
+
+</html>
